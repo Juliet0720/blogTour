@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import PostCard from "../components/PostCard"
+import PostCard from "../components/postCard"
 import PostDetail from "../components/postDetail"
 
 import coverImg1 from "../assets/cover-day1.jpg"
