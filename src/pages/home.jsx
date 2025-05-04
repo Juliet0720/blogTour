@@ -23,9 +23,9 @@ import day1Img11 from "../assets/rizal3.jpg"
 import day1Img2 from "../assets/flag.jpg"
 import day1Img3 from "../assets/reducto.jpg"
 import day1Img4 from "../assets/fort.jpg"
-//import day1Img012 from "../assets/fort1.jpg"
-//import day1Img013 from "../assests/fort2.jpg"
-//import day1Img014 from "../assests/fort3.jpg"
+import day1Img012 from "../assets/fort1.jpg"
+import day1Img013 from "../assets/fort2.jpg"
+import day1Img014 from "../assets/fort3.jpg"
 import day1Img5 from "../assets/moa.jpg"
 import day1Img6 from "../assets/moa1.jpg"
 import day1Img7 from "../assets/moa2.jpg"
@@ -79,6 +79,11 @@ import day4Img4 from "../assets/hytec2.jpg"
 import day4Img5 from "../assets/hytec3.jpg"
 import day4Img6 from "../assets/hytec4.jpg"
 import day4Img3 from "../assets/bsp.jpg"
+import day4Img7 from "../assets/bsp1.jpg"
+import day4Img8 from "../assets/bsp2.jpg"
+import day4Img9 from "../assets/bsp3.jpg"
+import day4Img10 from "../assets/bsp4.jpg"
+
 
 // Import all day5 images
 import day5Img1 from "../assets/lrt1.jpg"
@@ -172,7 +177,7 @@ function Home() {
             "Next, we visited the historic Rizal Park, a meaningful landmark where the memory of national hero Dr. José Rizal is honored. Walking through the serene grounds gave us a deep sense of pride and reverence. The iconic Rizal Monument, guarded by sentinels in traditional uniform, stood tall as a symbol of Filipino bravery and sacrifice. At the top of the obelisk, three gold stars shimmer proudly—each representing Luzon, Visayas, and Mindanao—signifying national unity across the Philippine archipelago. This stunning shot of the Philippine flag glowing against the sun and dramatic clouds perfectly symbolizes the spirit of nationalism. It reflects the sacrifices made by heroes like Rizal and the continued pride Filipinos hold in their heritage.",
         },
         {
-          images: [day1Img3, day1Img4, ],
+          images: [day1Img3, day1Img4, day1Img012, day1Img013,day1Img014 ],
           sectionTitle: " Reducto de San Francisco Javier & Fort Santiago: Echoes of the Past Within Intramuros",
           sectionText:
             "Next, we made our way to the iconic Fort Santiago and the Reducto de San Francisco Javier. Set within the walled city of Intramuros, this fortress has stood since 1570 and holds deep historical significance as a defense stronghold during the Spanish colonial era. As we explored the cobblestone paths, aged stone walls, and arched gates, we felt transported to a different era—one where the echoes of history still linger in every corner. The Reducto de San Francisco Javier, a circular bastion near the entrance, once served as a final line of defense, its cannon slits and stone form speaking to centuries of strategic warfare. Meanwhile, the main gate of Fort Santiago, adorned with intricate Spanish carvings and the national coat of arms, stood both majestic and solemn. Walking through it felt like stepping into a chapter of history. Inside, we found preserved ruins, Rizal's prison cell, and tranquil gardens—a solemn space for reflection on the sacrifices made for our nation's freedom.",
@@ -202,7 +207,7 @@ function Home() {
         },
         {
           images: [day2Img1, day2Img2, day2Img13, day2Img14, day2Img15],
-          sectionTitle: "Vessels Traffic Management System (VTMMS",
+          sectionTitle: "Vessels Traffic Management System (VTMS)",
           sectionText:
             "Engr. Jerome D. Saddi, ECE, led the discussion on the Vessels Traffic Management System (VTMS), a crucial technology for maintaining safety and efficiency in maritime operations at the Port of Subic Bay. Historically, Subic Bay was a strategic location used by Spanish and American forces, becoming the U.S. Naval Station in 1981 before being turned over to the Philippines in 1992. Today, it stands as a key seaport in Southeast Asia, covering 41 hectares and featuring 15 active piers and wharves. The VTMS integrates radar, CCTV, VHF radio, and AIS to monitor vessel movements, with Port Control and Traffic Officers managing operations. All incoming vessels are required to contact Subic Port Control via Radio Channel 16 and maintain constant communication, with harbor pilots assisting in safe navigation and docking procedures.",
         },
@@ -258,10 +263,10 @@ function Home() {
       image: coverImg4,
       dayImages: [
         {
-          images: [day4Img3],
+          images: [day4Img3, day4Img7, day4Img8, day4Img9, day4Img10],
           sectionTitle: "Bangko Sentral ng Pilipinas (BSP): The Heart of Philippine Currency",
           sectionText:
-            "At the BSP facility, we witnessed the incredible transformation of gold powder into solid gold bars—a rare behind-the-scenes look at the country's gold reserves. It was like stepping into a high-security vault filled with history and wealth. We also learned that BSP isn't just about money—it's involved in processing land titles, showcasing its critical role in national documentation and economic stability. Perhaps the most fascinating part was observing how Philippine banknotes are printed. We saw the actual machines used in printing, from the layout to cutting and quality control. It gave us a deep appreciation for the complexity and security behind every peso we use.",
+            "At the BSP facility, we witnessed the incredible transformation of gold powder into solid gold bars—a rare behind-the-scenes look at the country's gold reserves. It was like stepping into a high-security vault filled with history and wealth. We also learned that BSP isn't just about money—it's involved in processing land titles, showcasing its critical role in national documentation and economic stability. Perhaps the most fascinating part was observing how Philippine banknotes are printed. We saw the actual machines used in printing, from the layout to cutting and quality control. It gave us a deep appreciation for the complexity and security behind every peso we use. (Credits to Google for some Pictures of BSP.) ",
         },
         {
           images: [day4Img1, day4Img2, day4Img4, day4Img5, day4Img6],
@@ -397,9 +402,8 @@ function Home() {
           <section className="home-hero">
             <h1>Educational Tour Blog</h1>
             <p>
-              Join me as I share my personal experiences and insights from our educational tours. Through visits to
-              various companies and institutions, I've gained real-world knowledge that goes beyond the classroom—and
-              I'm excited to bring you along on the journey.
+            A glimpse into our 8-day educational tour—city explorations, company visits, 
+            and a memorable Baguio escape. Real-world learning beyond the classroom.
             </p>
           </section>
 
