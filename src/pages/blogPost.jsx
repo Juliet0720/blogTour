@@ -18,6 +18,10 @@ import day1Img1 from "../assets/rizal.jpg"
 import day1Img2 from "../assets/flag.jpg"
 import day1Img3 from "../assets/reducto.jpg"
 import day1Img4 from "../assets/fort.jpg"
+import day1Img5 from "../assets/moa.jpg"
+import day1Img6 from "../assets/moa1.jpg"
+import day1Img7 from "../assets/moa2.jpg"
+import day1Img8 from "../assets/moa3.jpg"
 
 import day2Img1 from "../assets/subicport.jpg"
 import day2Img2 from "../assets/subicport1.jpg"
@@ -122,6 +126,11 @@ function Blog() {
           images: [day1Img3, day1Img4],
           sectionTitle: " Reducto de San Jose & Fort Santiago: Echoes of the Past Within Intramuros",
           sectionText: "Next, we made our way to the iconic Fort Santiago and the Reducto de San Francisco Javier. Set within the walled city of Intramuros, this fortress has stood since 1570 and holds deep historical significance as a defense stronghold during the Spanish colonial era. As we explored the cobblestone paths, aged stone walls, and arched gates, we felt transported to a different era—one where the echoes of history still linger in every corner. The Reducto de San Francisco Javier, a circular bastion near the entrance, once served as a final line of defense, its cannon slits and stone form speaking to centuries of strategic warfare. Meanwhile, the main gate of Fort Santiago, adorned with intricate Spanish carvings and the national coat of arms, stood both majestic and solemn. Walking through it felt like stepping into a chapter of history. Inside, we found preserved ruins, Rizal’s prison cell, and tranquil gardens—a solemn space for reflection on the sacrifices made for our nation’s freedom."
+        },
+        {
+          images: [day1Img5, day1Img6, day1Img7, day1Img8 ],
+          sectionTitle: " Mall of Asia Moments ",
+          sectionText: "We wrapped up the day with a visit to Mall of Asia (MOA)—one of the biggest malls in the country. It was the perfect spot to relax, enjoy a meal, and reflect on the enriching experiences of the day. From history to modern marvels, today offered a perfect blend of culture, learning, and leisure.."
         }
       ]
     },
@@ -272,8 +281,8 @@ dayImages: [
       id: 7,
       title: "Day 7 - End of Baguio Tour",
       date: "2025-04-13",
-      description: "A deeper look into port operations and maritime law enforcement.",
-      fullContent: "We had briefings at Subic Port and visited law enforcement agencies.",
+      description: "Baguio: A Memorable Goodbye.",
+      fullContent: "Our final day in Baguio began on a quiet and sentimental note. After a night filled with exploration, culture, and laughter, it was finally time to head back to QC — but not before one last adventure in the city.",
       image: coverImg7,
       dayImages: [
         {
@@ -311,8 +320,7 @@ dayImages: [
 
   return (
     <div className="container blog-container">
-      <h1>Industry Visit Blog</h1>
-
+      <h1>Educational Tour Blog</h1>
       {selectedPost ? (
         <div className="selected-post-container">
           <PostDetail post={selectedPost} onBack={() => setSelectedPost(null)} />

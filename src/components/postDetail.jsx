@@ -79,10 +79,9 @@ function PostDetail({ post, onBack }) {
 
           <div className="post-quote">
             <blockquote>
-              "Innovation is not just about new technology, but about solving problems in ways that positively impact
-              people's lives and create sustainable solutions for the future."
+              "In every corner we turned, there was a new lesson, a fresh perspective, and a story waiting to be told. The journey isn't just about seeing places, but about embracing the moments and the people we meet along the way"
             </blockquote>
-            <cite>— Industry Expert, Chief Innovation Officer</cite>
+            <cite>— Anonymous</cite>
           </div>
         </div>
       </div>
