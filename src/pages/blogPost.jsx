@@ -198,7 +198,7 @@ function Blog() {
       title: "Day 4 - BSP and Hypertech",
       date: "2025-04-10",
       description: "Innovation and Industry: A Visit to BSP and HyTech.",
-      fullContent: "Another exciting stop on our educational journey brought us to two fascinating destinations—Bangko Sentral ng Pilipinas (BSP) and HyTech, where we explored the intersection of finance, industry, and technologyOur educational adventure continued with eye-opening visits to two major institutions: the Bangko Sentral ng Pilipinas (BSP) and HyTech Power Inc. Each offered a unique glimpse into the world of finance, technology, and innovation in the Philippines.",
+      fullContent: "Our educational adventure continued with eye-opening visits to two major institutions: the Bangko Sentral ng Pilipinas (BSP) and HyTech Power Inc. Each offered a unique glimpse into the world of finance, technology, and innovation in the Philippines.",
       image: coverImg4,
       dayImages: [
         {
@@ -295,7 +295,7 @@ dayImages: [
     },
     {
       id: 8,
-      title: "Day 8 - Fligth back to Zamboanga",
+      title: "Day 8 - Flight back to Zamboanga",
       date: "2025-04-14",
       description: "Until Next Time, Manila: Our Flight Back to Zamboanga",
       fullContent: "All great adventures must come to an end—and today, our journey did just that. There was a different kind of silence in the air as we packed our bags, folded our last souvenirs, and stepped out of the DJM Dormitory for the final time.",
