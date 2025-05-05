@@ -19,8 +19,6 @@ p{
 /* Main Container Styles */
 .container {
   margin: 0 auto;
-  background-color: #586d81;
-  ;
   width: 100%; /* Add this line to make the container take full width */
   padding: 0;
 }
@@ -38,23 +36,18 @@ p{
   align-items: center;
   text-align: center;
   padding: 60px 20px;
-  background-color: #586d81;
+  background-image: url('../src/assets/bell3.jpg');
+  background-size: cover;          /* Makes sure the image covers the entire background */
+background-repeat: no-repeat;    /* Prevents repeating the image */
+background-position: center;
   color: #1A1A1A;
   position: relative;
   z-index: 1;
-  box-shadow: 0 10px 5px 5px #586d81; /* soft bottom glow */
+  
 }
 
-.home-hero::after {
-  content: '';
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  right: 0;
-  height: 60px;
-  background: linear-gradient(to bottom, rgba(88, 109, 129, 1), rgba(88, 109, 129, 0));
-  z-index: -1;
-}
+
+
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -79,7 +72,7 @@ p{
   font-size: 1.7rem;
   max-width: 800px;
   line-height: 1.6;
-  color: #e0dddd;
+  color: #4d568a;
   font-family: 'Romanesco', cursive;
   animation: fadeInUp 1.2s ease-out forwards;
   animation-delay: 0.3s;
