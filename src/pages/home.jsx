@@ -167,14 +167,14 @@ function Home() {
       date: "2025-04-07",
       description: "A Day of Discovery: From Quezon City to Intramuros and MOA",
       fullContent:
-        "Today started bright and early as we made our way to the airport, excitement buzzing in the air. After a smooth arrival, we recharged with a restful break and a hearty lunch at DJM, fueling up for the adventures ahead. Our city tour kicked off with an introduction to Quezon City, affectionately known as the 'City of Stars.' Our guide shared that it's the largest city in Metro Manila, both in terms of land area and population. It's also considered the constitutional city, having once been the capital of the Philippines and home to key government institutions.",
+        "Today started bright and early as we made our way to the airport, excitement buzzing in the air. After a smooth arrival, we recharged with a restful break and a hearty lunch at DJM, fueling up for the adventures ahead. Our city tour kicked off with an introduction to Quezon City, affectionately known as the 'City of Stars.' Our guide, Kuya Enan shared that it's the largest city in Metro Manila, both in terms of land area and population. It's also considered the constitutional city, having once been the capital of the Philippines and home to key government institutions.",
       image: coverImg1,
       dayImages: [
         {
           images: [day1Img1, day1Img2, day1Img9,day1Img10, day1Img11],
           sectionTitle: "Rizal Park",
           sectionText:
-            "Next, we visited the historic Rizal Park, a meaningful landmark where the memory of national hero Dr. José Rizal is honored. Walking through the serene grounds gave us a deep sense of pride and reverence. The iconic Rizal Monument, guarded by sentinels in traditional uniform, stood tall as a symbol of Filipino bravery and sacrifice. At the top of the obelisk, three gold stars shimmer proudly—each representing Luzon, Visayas, and Mindanao—signifying national unity across the Philippine archipelago. This stunning shot of the Philippine flag glowing against the sun and dramatic clouds perfectly symbolizes the spirit of nationalism. It reflects the sacrifices made by heroes like Rizal and the continued pride Filipinos hold in their heritage.",
+            "Next, we visited the historic Rizal Park, a meaningful landmark where the memory of national hero Dr. José Rizal is honored. Walking through the serene grounds gave us a deep sense of pride and reverence. The iconic Rizal Monument, stood tall as a symbol of Filipino bravery and sacrifice. At the top of the obelisk, three gold stars shimmer proudly—each representing Luzon, Visayas, and Mindanao—signifying national unity across the Philippine archipelago. This stunning shot of the Philippine flag glowing against the sun and dramatic clouds perfectly symbolizes the spirit of nationalism. It reflects the sacrifices made by heroes like Rizal and the continued pride Filipinos hold in their heritage.",
         },
         {
           images: [day1Img3, day1Img4, day1Img012, day1Img013,day1Img014 ],
@@ -196,32 +196,32 @@ function Home() {
       date: "2025-04-08",
       description: "Educational Adventures in Subic: From Culture to Port Technology.",
       fullContent:
-        "The day began before the sun even rose—2:00 AM, to be exact. With excitement and sleepy eyes, we got ready, grabbed a quick breakfast, and set off for Subic for an educational tour packed with culture, history, and cutting-edge port technology. Along the way, we learned about Pampanga, hailed as the Culinary Capital of the Philippines. Our guide shared how Kapampangans were once the trusted chefs of the Spanish colonizers, a legacy that lives on in their flavorful dishes today. We were introduced to a few local favorites: Tocino – pork marinated in sugar for a sweet, savory finish. Sisig – derived from the word meaning to make it sour, this sizzling dish has become a national favorite.",
+        "The day began before the sun even rose—4:00 AM, to be exact. With excitement and sleepy eyes, we got ready, grabbed breakfast, and set off for Subic for an educational tour packed with culture, history, and cutting-edge port technology. Along the way, we learned about Pampanga, hailed as the Culinary Capital of the Philippines. Kuya Enan shared how Kapampangans were once the trusted chefs of the Spanish colonizers, a legacy that lives on in their flavorful dishes today. We were introduced to a few local favorites: Tocino – pork marinated in sugar for a sweet, savory finish. Sisig – derived from the word meaning to make it sour, this sizzling dish has become a national favorite.",
       image: coverImg2,
       dayImages: [
         {
           images: [day2Img5, day2Img6, day2Img10, day2Img11, day2Img12],
           sectionTitle: "Subic Bay Exhibition and Convention Center",
           sectionText:
-            "Upon arriving in Subic, we admired colorful murals displayed along the hallway of the Subic Bay Exhibition and Convention Center (SBECC). Each mural was rich with historical and cultural imagery, reflecting key moments and figures in Philippine history. These vibrant artworks immediately caught our attention, offering a glimpse into the nation's struggles, triumphs, and heritage. Sir Marlon Montero from the Tourism Department thoughtfully explained each piece, sharing the stories and symbolism behind them. He highlighted how the murals represented different eras—from colonial resistance and revolutions to modern achievements in sports, politics, and society. His insights gave us a deeper appreciation for the artwork and the history it encapsulated, making our visit both educational and meaningful. After that, we were then introduced to Mr. Martee De Guzman, our Tour Guide for the whole tour at the SBMA Freeport Zone.",
+            "Upon arriving in Subic Bay,We entered and admired colorful and beautiful murals displayed along the hallway of the Subic Bay Exhibition and Convention Center (SBECC). Each mural was rich with historical and cultural imagery, reflecting key moments and figures in Philippine history. These vibrant artworks immediately caught our attention, offering a glimpse into the nation's struggles, triumphs, and heritage. Sir Marlon Montero from the Tourism Department thoughtfully explained each piece, sharing the stories and symbolism behind them. He highlighted how the murals represented different eras—from colonial resistance and revolutions to modern achievements in culture, politics, and society. His insights gave us a deeper appreciation for the artwork and the history it encapsulated, making our visit both educational and meaningful. After that, we were then introduced to Mr. Martee De Guzman, our Tour Guide for the whole tour at the SBMA Freeport Zone.",
         },
         {
           images: [day2Img1, day2Img2, day2Img13, day2Img14, day2Img15],
           sectionTitle: "Vessels Traffic Management System (VTMS)",
           sectionText:
-            "Engr. Jerome D. Saddi, ECE, led the discussion on the Vessels Traffic Management System (VTMS), a crucial technology for maintaining safety and efficiency in maritime operations at the Port of Subic Bay. Historically, Subic Bay was a strategic location used by Spanish and American forces, becoming the U.S. Naval Station in 1981 before being turned over to the Philippines in 1992. Today, it stands as a key seaport in Southeast Asia, covering 41 hectares and featuring 15 active piers and wharves. The VTMS integrates radar, CCTV, VHF radio, and AIS to monitor vessel movements, with Port Control and Traffic Officers managing operations. All incoming vessels are required to contact Subic Port Control via Radio Channel 16 and maintain constant communication, with harbor pilots assisting in safe navigation and docking procedures.",
+            "Upon arriving at the VTMS, Engr. Jerome D. Saddi, ECE, was introduced and led the discussion on the Vessels Traffic Management System (VTMS), essential technology for maintaining safety and efficiency in maritime operations at the Port of Subic Bay. Historically, Subic Bay was a strategic location used by Spanish and American forces, becoming the U.S. Naval Station in 1981 before being turned over to the Philippines in 1992. Today, it stands as a key seaport in Southeast Asia, covering 41 hectares and featuring 15 active piers and wharves. The VTMS integrates radar, CCTV, VHF radio, and AIS to monitor vessel movements, with Port Control and Traffic Officers managing operations. All incoming vessels are required to contact Subic Port Control via Radio Channel 16 and maintain constant communication, with harbor pilots assisting in safe navigation and docking procedures.",
         },
         {
           images: [day2Img3, day2Img4, day2Img16, day2Img17, day2Img18],
           sectionTitle: "Law Enforcement",
           sectionText:
-            " Lastly, Lt. Derek gave us an overview of port law enforcement operations. From dispatch procedures to day-to-day law enforcement duties, he emphasized the importance of coordination, vigilance, and discipline in keeping Subic's port secure.",
+            " Lastly, the final company we visited at SBMA was the Law Enforcement Department. Lt. Derek was introduced to us and provided an overview of port law enforcement operations. From dispatch procedures to daily duties, he emphasized the importance of coordination, vigilance, and discipline in maintaining the security of Subic’s port. We also learned that there is no Philippine National Police (PNP) presence within the SBMA, and the area operates independently without any governors.",
         },
         {
           images: [day2Img7, day2Img9, day2Img01, day2Img02, day2Img03],
           sectionTitle: "Tour around SBMA",
           sectionText:
-            " After visiting companies, it was time to see the beauty of Subic Bay. The scenic views, refreshing breeze, and peaceful atmosphere offered a relaxing break from our busy schedule. As we drove through the area, we even spotted a tree filled with what looked like fruit hanging from its branches—only to realize they were actually bats! Fun fact: those hanging shapes aren't fruits, they're bats resting in the daylight—one of Subic's unique and fascinating natural sights. We also went to Royal Duty Free, where we had the chance to shop for imported foods and snacks—an enjoyable treat that added a fun, leisurely touch to our educational trip.",
+            " After visiting companies, it was time to see the beauty of Subic Bay. The scenic views, refreshing breeze, and peaceful atmosphere offered a relaxing break. As we drove through the area, we even spotted a tree filled with what looked like fruit hanging from its branches—only to realize they were actually bats! Fun fact: those hanging shapes aren't fruits, they're bats resting in the daylight—one of Subic's unique and fascinating natural sights. We also went to Royal Duty Free, where we had the chance to shop for imported foods and snacks—an enjoyable treat that added a fun, leisurely touch to our educational trip.",
         },
       ],
     },
@@ -230,18 +230,18 @@ function Home() {
       title: "Day 3 - Museum Tour",
       date: "2025-04-09",
       description: "Discovering Filipino history and science through museums.",
-      fullContent: "We visited the National Museum, QC Memorial Circle, and Car Museum.",
+      fullContent: "We visited the National Museum of Natural History, QC Memorial Circle, and Car Museum.",
       image: coverImg3,
       dayImages: [
         {
           images: [day3Img1, day3Img2, day3Img5, day3Img8, day3Img12],
           sectionTitle: "Starting at the National Museum of Natural History",
           sectionText:
-            "Before heading to the Quezon Memorial Circle, we also visited the National Museum of Natural History, located at Rizal Park, Manila. Housed in a beautifully restored neoclassical building, the museum showcases the rich biodiversity and geological history of the Philippines. One of the museum's main highlights is Lolong—the world's largest crocodile in captivity, now preserved and displayed for educational purposes. Seeing Lolong up close was both fascinating and humbling, as it underscored the importance of wildlife conservation. From marine life and tropical forests to indigenous species and natural wonders, each gallery offered us a deeper appreciation for our environment and cultural heritage. It was an eye-opening experience that perfectly set the tone for our historical journey.",
+            " We visited the National Museum of Natural History, located at Rizal Park, Manila. Housed in a beautifully restored neoclassical building, the museum showcases the rich biodiversity and geological history of the Philippines. One of the museum's main highlights is Lolong—the world's largest crocodile in captivity, now preserved and displayed for educational purposes. Seeing Lolong up close was both fascinating and humbling, as it underscored the importance of wildlife conservation. From marine life and tropical forests to indigenous species and natural wonders, each gallery offered us a deeper appreciation for our environment and cultural heritage.",
         },
         {
           images: [day3Img3, day3Img4, day3Img9, day3Img10, day3Img11],
-          sectionTitle: "Retracing History at Quezon Memorial Circle",
+          sectionTitle: "A visit to Quezon Memorial Circle",
           sectionText:
             "Today's journey took us deeper into the roots of the nation as we toured the Quezon Memorial Circle, home to the Museo ni Manuel L. Quezon and a tranquil green space in the heart of Quezon City. It was a day of learning, reflection, and national pride. Inside the Museo ni Manuel L. Quezon, we explored key moments in the life of President Quezon—from his humble beginnings and early political career to his presidency during the Commonwealth period and leadership during the Japanese occupation. Though he passed away before witnessing Philippine independence, his contributions laid the foundation for a free nation. The Quezon Memorial Shrine now stands as both a national shrine and peaceful space for reflection. At its peak, three mourning angels—symbolizing Luzon, Visayas, and Mindanao—hold sampaguita wreaths in honor of Quezon's enduring legacy.",
         },
@@ -249,7 +249,7 @@ function Home() {
           images: [day3Img6, day3Img7,day3Img13,day3Img14,day3Img15],
           sectionTitle: "A Glimpse Into the Past: The Car Museum",
           sectionText:
-            "Right within the Quezon Memorial Circle, we also visited the Car Museum, which displayed a fascinating collection of vintage vehicles—including cars used by former presidents and important figures in Philippine history. Each vehicle told its own story, reflecting the era and the leadership behind the wheel.",
+            "Right within the Quezon Memorial Circle, we also visited the Car Museum, which displayed all fascinating collection of vintage vehicles—including cars used by former presidents and important figures in Philippine history. Each vehicle has its own story, reflecting the era and the leadership behind the wheel.",
         },
       ],
     },
@@ -266,13 +266,13 @@ function Home() {
           images: [day4Img3, day4Img7, day4Img8, day4Img9, day4Img10],
           sectionTitle: "Bangko Sentral ng Pilipinas (BSP): The Heart of Philippine Currency",
           sectionText:
-            "At the BSP facility, we witnessed the incredible transformation of gold powder into solid gold bars—a rare behind-the-scenes look at the country's gold reserves. It was like stepping into a high-security vault filled with history and wealth. We also learned that BSP isn't just about money—it's involved in processing land titles, showcasing its critical role in national documentation and economic stability. Perhaps the most fascinating part was observing how Philippine banknotes are printed. We saw the actual machines used in printing, from the layout to cutting and quality control. It gave us a deep appreciation for the complexity and security behind every peso we use. (Credits to Google for some Pictures of BSP.) ",
+            "At the BSP facility, although we weren’t able to take actual photos, we witnessed how gold powder is transformed into solid gold bars—a rare behind-the-scenes look at the country's gold reserves. It was an incredible experience, almost like stepping into a high-security vault filled with both history and wealth. We also learned that the BSP isn’t just about printing money. It plays a role in processing land titles and even passports, as the paper used in these documents is similar to that used in currency—highlighting its crucial role in national documentation and economic stability. Perhaps the most fascinating part was observing how Philippine banknotes are printed. We saw the actual machines in action—from layout and printing to cutting and quality control—which gave us a deeper appreciation for the complexity and security measures behind every peso we use. Special thanks to Sir Cyrus for touring us around the BSP and sharing his knowledge with us. (Credits to Google for some of the photos of BSP.) ",
         },
         {
           images: [day4Img1, day4Img2, day4Img4, day4Img5, day4Img6],
           sectionTitle: "HyTech Power Inc.: Bridging Industry and Innovation",
           sectionText:
-            "Our next stop was HyTech Power Inc., an educational and industrial training hub dedicated to future-ready learning. The facility is divided into two main divisions: the Industrial Division, which focuses on developing technical and mechanical skills, and the Lifelong Learning Division, which promotes continuous education across all ages, especially in modern technology. We learned about HyTech's global partnerships with Amatrol, a U.S.-based training system specializing in mechatronics and automation, and Ignite, a program that fosters innovative skill development. A highlight of our visit was experiencing Extended Reality (XR)—a fusion of Augmented Reality (AR) and immersive tech—which allowed us to interact with digital content overlaid on the real world. It was a fascinating glimpse into how technology is transforming the future of education and training.",
+            "After our Lunch, our next stop was HyTec Power Inc., an educational and industrial training hub dedicated to future-ready learning. The facility is divided into two main divisions: the Industrial Division, which focuses on developing technical and mechanical skills, and the Lifelong Learning Division, which promotes continuous education across all ages, especially in modern technology. We learned about HyTech's global partnerships with Amatrol, a U.S.-based training system specializing in mechatronics and automation, and Ignite, a program that fosters innovative skill development. A highlight of our visit was experiencing Extended Reality (XR)—a fusion of Augmented Reality (AR) and immersive tech—which allowed us to interact with digital content overlaid on the real world. It was a fascinating glimpse into how technology is transforming the future of education and training.",
         },
       ],
     },
@@ -280,7 +280,7 @@ function Home() {
       id: 5,
       title: "Day 5 - Light Rail Transit Line 2 & Metropolitan Manila Development Authority",
       date: "2025-04-11",
-      description: "Urban Mobility and Management: A Friday Tour Through LRT-2 and MMDA",
+      description: " A Friday Tour Through LRT-2 and MMDA",
       fullContent:
         "Our final day of the educational tour brought us into the heart of Metro Manila's transport and traffic systems, as we explored LRT-2's operations with Sir Adrian and got an inside look at the MMDA (Metropolitan Manila Development Authority) headquarters.",
       image: coverImg5,
@@ -304,45 +304,44 @@ function Home() {
       title: "Day 6 - Start of Baguio Tour",
       date: "2025-04-12",
       description: "A Saturday Escape to Baguio: Strawberry Farm, Bell Church, Philippine Military Academy, and  Mines View Park",
-      fullContent:
-        "We arrived in Baguio at around 5:00 AM, greeted by the crisp mountain air and the quiet beauty of the city just starting to wake. Despite the early hour, the excitement kept us warm and energized as we began our chilly yet charming adventure.",
+      fullContent:"We left Quezon City around 1:00 AM and arrived in Baguio at approximately 5:00 AM, greeted by the crisp mountain air and the quiet beauty of a city just beginning to wake. Despite the early hour and the chilly atmosphere, our excitement kept us warm and energized as we embarked on our cold yet charming adventure.",
       image: coverImg6,
       dayImages: [
         {
           images: [day6Img1, day6Img2, day6Img3, day6Img4,day6Img29],
           sectionTitle: "Strawberry Farm Sunrise",
           sectionText:
-            "Our first stop: the famous Strawberry Farm in La Trinidad. The cool breeze, the fresh scent of strawberries in the air, and the scenic rows of plants stretching across the field made for the perfect start to our day. Although we didn't get to pick strawberries ourselves, we enjoyed roaming around the area, taking photos, and admiring the view. The place had a calm and refreshing atmosphere, with stalls nearby selling fresh strawberries, local jams, and handmade souvenirs. It was a simple yet memorable experience that gave us a taste of Baguio's charm and agricultural pride.",
+            "Our first stop: the famous Strawberry Farm in La Trinidad. The cool breeze and the scenic rows of plants stretching across the field made for the perfect start to our day. Although we didn't get to pick strawberries ourselves, we enjoyed roaming around the area, taking photos, and admiring the view. The place had a calm and refreshing atmosphere, with stalls nearby selling fresh strawberries, local jams, and handmade souvenirs. It was a simple yet memorable experience that gave us a taste of Baguio's charm and agricultural pride.",
         },
         {
           images: [day6Img5, day6Img6, day6Img7, day6Img8, day6Img9],
           sectionTitle: "A Moment of Peace at Bell Church",
           sectionText:
-            "Next, we visited the serene Bell Church, known for its peaceful gardens, traditional Chinese architecture, and calming atmosphere. It offered a spiritual pause and a unique cultural experience. After visiting the Bell Church, we finally checked in at Prince Plaza Hotel where we had breakfast and took a short rest. It was the perfect way to refuel before our afternoon explorations.",
+            "Next, we visited the Bell Church, known for its peaceful gardens, traditional Chinese architecture, and calming atmosphere. It offered a spiritual pause and a unique cultural experience. After visiting the Bell Church, we finally checked in at Prince Plaza Hotel where we had breakfast and took a short rest. It was the perfect way to refuel before our afternoon explorations.",
         },
         {
           images: [day6Img10, day6Img11, day6Img12, day6Img13, day6Img14],
-          sectionTitle: "PMA and the Pride of Discipline",
+          sectionTitle: "Visiting the Philippine Military Academy",
           sectionText:
-            "Post-lunch, we headed to the Philippine Military Academy (PMA)—a prestigious institution that blends history, discipline, and national pride. As we entered the grounds, we were welcomed by vast open spaces, well-kept lawns, and a serene atmosphere that reflected the values of the academy. It was always my dream to visit the Academy, and being there in person felt both surreal and fulfilling. We roamed around, admired the statues of national heroes and military figures, and explored the historical displays scattered throughout the area. One of the highlights was the breathtaking overlooking view of the surrounding mountains and landscape, which made the perfect backdrop for countless photos. It was a refreshing and inspiring stop that added both scenic beauty and a sense of national pride to our trip.",
+            "After lunch, we headed to the Philippine Military Academy (PMA)—a prestigious institution that embodies history, discipline, and national pride. As we entered the grounds, we were welcomed by vast open spaces, well-maintained lawns, and a serene atmosphere. Visiting the Academy had always been a dream of mine, and being there in person felt both surreal and deeply fulfilling. We wandered around the campus, admired statues of national heroes and military figures, and explored the historical displays scattered throughout the area. One of the highlights was the breathtaking view overlooking the surrounding mountains and landscape, providing the perfect backdrop for countless photos. It was a refreshing and memorable stop—like my inner child was thrilled to finally see the Academy in person. The visit added not only scenic beauty but also a deep sense of national pride to our trip.",
         },
         {
           images: [day6Img19, day6Img18, day6Img15, day6Img16, day6Img17],
           sectionTitle: "The Mansion: A Presidential Sight",
           sectionText:
-            "Our next stop was The Mansion, one of Baguio's most elegant landmarks. Originally built in 1908, it now serves as the official summer residence of the Philippine President. Its grand iron gate and white facade gave off a stately vibe, perfect for group photos. We couldn't go inside, but standing in front of the well-kept gardens and historic gates gave us a sense of national pride and nostalgia.",
+            "Our next stop was The Mansion, one of Baguio's most elegant landmarks. Originally built in 1908, it now serves as the official summer residence of the Philippine President. Its grand iron gate and white facade gave off a stately vibe, perfect for group and solo photos. We weren't able to go inside the Mansion, but standing in front of the well-kept gardens and historic gates gave us a sense of national pride and nostalgia.",
         },
         {
           images: [day6Img20, day6Img21, day6Img22, day6Img24, day6Img25],
           sectionTitle: "Mines View Park: A Cultural and Scenic Experience",
           sectionText:
-            "A short drive from The Mansion took us to the popular Mines View Park. As we arrived, we immediately tried on traditional Cordilleran attire, complete with colorful woven fabrics and native headdresses. It was fun to embrace the local culture and pose for photos with the stunning backdrop of Baguio's mountains. The view was truly breathtaking—rolling hills, pine trees, and remnants of the old mining town far below. We took our time strolling through the souvenir stalls, where everything from wood carvings to knitted sweaters tempted us.",
+            "A short drive from The Mansion took us to the popular Mines View Park. As we arrived, we immediately tried on their traditional Cordilleran attire, complete with colorful woven fabrics and native headdresses. It was fun to embrace the local culture and pose for photos with the stunning backdrop of Baguio's mountains. The view was truly breathtaking—rolling hills, pine trees, and remnants of the old mining town far below. We took our time strolling through the souvenir stalls, where everything from wood carvings to knitted sweaters tempted us.",
         },
         {
           images: [day6Img26, day6Img27, day6Img28, day6Img30, day6Img31],
           sectionTitle: "Night Strolls and Street Food Cravings",
           sectionText:
-            "After dinner, we capped off our day with a trip to the lively Baguio Night Market along Harrison Road. It was buzzing with energy—vendors selling clothes, accessories, and street food, and crowds moving from stall to stall. We tried some delicious local eats, soaked in the night vibes, and let the mountain air guide us through the colorful chaos.",
+            "After dinner, we wrapped up our day with a trip to the lively Baguio Night Market along Harrison Road. It was buzzing with energy—vendors selling clothes, accessories, and especially food, and crowds moving from stall to stall. We tried some delicious local eats, soaked in the night vibes, and let the cool mountain air guide us through the colorful chaos.",
         },
       ],
     },
@@ -352,14 +351,14 @@ function Home() {
       date: "2025-04-13",
       description: "Baguio: A Memorable Goodbye.",
       fullContent:
-        "Our final day in Baguio began on a quiet and sentimental note. After a night filled with exploration, culture, and laughter, it was finally time to head back to QC — but not before one last adventure in the city.",
+        "Our final day in Baguio began on a quiet and sentimental note. After a night filled with exploration, culture, eating and laughter, it was finally time to head back to QC — but not before one last adventure in the city.",
       image: coverImg7,
       dayImages: [
         {
           images: [day7Img1, day7Img2, day7Img3, day7Img4, day7Img5],
-          sectionTitle: "Wrapping up our Baguio Tour",
+          sectionTitle: "Packing Mtories, not just Souveniers: Wrapping up our Baguio Tour",
           sectionText:
-            "We started our Sunday with a warm and hearty breakfast, still feeling the cool Baguio breeze.Afterwards, we made our way to the Maharlika Shopping Center, one of Baguio's classic go-to spots for pasalubong. The scent of fresh peanut brittle, ube jam, woven crafts, and local trinkets filled the air as we browsed the stalls for last-minute gifts and souvenirs. It was our last chance to bring a piece of Baguio home with us-and most of us didn't leave empty-handed!  After our shopping run, we returned to the hotel for one last meal together-lunch, filled with laughter and stories from the past few days. We packed our bags, double-checked our souvenirs,and took a few more photos before checking out. By early afternoon, we boarded our ride back to Quezon City, tired but fulfilled. It was more than just a trip-it was an experience filled with learning, friendship, discovery, and new memories. From city tours to strolling around strawberry farm, train systems to night markets, every day gave us something to remember.",
+            "We started our Sunday with a warm and hearty breakfast, still enjoying the cool Baguio breeze. Afterward, we made our way to the Maharlika Shopping Center—one of Baguio’s classic go-to spots for pasalubong. The scent of fresh peanut brittle, ube and strawberry jam, woven crafts, and local trinkets filled the air as we browsed the stalls for last-minute gifts and souvenirs. We also took a leisurely stroll around Burnham Park. It was our final chance to bring a piece of Baguio home with us—and most of us didn’t leave empty-handed! After our shopping run, we returned to the hotel for one last meal together: lunch filled with laughter and stories from the past few days. We packed our bags, double-checked our souvenirs—especially the strawberries, hoping they would survive the long journey—and took a few more photos before checking out. By early afternoon, we boarded our ride back to Quezon City, tired but fulfilled. It was more than just a trip—it was an experience filled with learning, friendship, discovery, and lasting memories. From city tours to strawberry farms, train systems to night markets, every day offered something meaningful to remember.",
         },
       ],
     },
