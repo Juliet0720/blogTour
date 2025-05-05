@@ -3,7 +3,12 @@
 function PostCard({ post, onClick }) {
   return (
     <div className="post-card" onClick={onClick}>
-      <img src={post.image || "https://placehold.co/300x200"} alt={post.title} />
+     <div className="image-container">
+        <img src={post.image || "/placeholder.svg"} alt={post.title} />
+        <div className="read-more-overlay">
+          <div className="read-more-button">Read More</div>
+        </div>
+      </div>
       <div className="post-content">
         <h3>{post.title}</h3>
         <p className="post-description">{post.description}</p>

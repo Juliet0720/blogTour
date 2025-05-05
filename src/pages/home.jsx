@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 import PostCard from "../components/postCard"
 import PostDetail from "../components/postDetail"
 import { ChevronDown } from "lucide-react"
@@ -14,6 +14,20 @@ import coverImg5 from "../assets/cover-day5.jpg"
 import coverImg6 from "../assets/cover-day6.jpg"
 import coverImg7 from "../assets/cover-day7.jpg"
 import coverImg8 from "../assets/covver-day8.jpg"
+
+// Import bell images for slideshow
+import slide from "../assets/slide.jpg"
+import slide1 from "../assets/slide1.jpg"
+import slide2 from "../assets/slide2.jpg"
+import slide3 from "../assets/slide3.jpg"
+import slide4 from "../assets/slide4.jpg"
+import slide5 from "../assets/slide5.jpg"
+import slide6 from "../assets/slide6.jpg"
+import slide7 from "../assets/slide7.jpg"
+import slide8 from "../assets/slide8.jpg"
+import slide9 from "../assets/slide9.jpg"
+import slide10 from "../assets/slide10.jpg"
+import slide11 from "../assets/slide11.jpg"
 
 // Import all day1 images
 import day1Img1 from "../assets/rizal.jpg"
@@ -49,7 +63,6 @@ import day2Img10 from "../assets/sbecc3.jpg"
 import day2Img11 from "../assets/sbecc4.jpg"
 import day2Img12 from "../assets/sbecc5.jpg"
 import day2Img7 from "../assets/subic.jpg"
-import day2Img8 from "../assets/dutyfree.jpg"
 import day2Img9 from "../assets/dutyfree1.jpg"
 import day2Img01 from "../assets/dutyfree2.jpg"
 import day2Img02 from "../assets/subic1.jpg"
@@ -83,7 +96,6 @@ import day4Img7 from "../assets/bsp1.jpg"
 import day4Img8 from "../assets/bsp2.jpg"
 import day4Img9 from "../assets/bsp3.jpg"
 import day4Img10 from "../assets/bsp4.jpg"
-
 
 // Import all day5 images
 import day5Img1 from "../assets/lrt1.jpg"
@@ -125,7 +137,6 @@ import day6Img19 from "../assets/mansion4.jpg"
 import day6Img20 from "../assets/mine.jpg"
 import day6Img21 from "../assets/mine1.jpg"
 import day6Img22 from "../assets/mine2.jpg"
-import day6Img23 from "../assets/mine3.jpg"
 import day6Img24 from "../assets/mine4.jpg"
 import day6Img25 from "../assets/mine5.jpg"
 import day6Img26 from "../assets/night.jpg"
@@ -152,6 +163,19 @@ import day8Img5 from "../assets/back1.jpg"
 function Home() {
   const [selectedPost, setSelectedPost] = useState(null)
   const postsRef = useRef(null)
+  const [currentSlideIndex, setCurrentSlideIndex] = useState(0)
+
+  // Slideshow images array
+  const slideshowImages = [slide, slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide10, slide11  ]
+
+  // Effect for slideshow
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlideIndex((prevIndex) => (prevIndex + 1) % slideshowImages.length)
+    }, 5000) // Change image every 5 seconds
+
+    return () => clearInterval(interval)
+  }, [])
 
   // Declaration of variables to fix the errors
   const Isn = null
@@ -171,13 +195,13 @@ function Home() {
       image: coverImg1,
       dayImages: [
         {
-          images: [day1Img1, day1Img2, day1Img9,day1Img10, day1Img11],
+          images: [day1Img1, day1Img2, day1Img9, day1Img10, day1Img11],
           sectionTitle: "Rizal Park",
           sectionText:
             "Next, we visited the historic Rizal Park, a meaningful landmark where the memory of national hero Dr. José Rizal is honored. Walking through the serene grounds gave us a deep sense of pride and reverence. The iconic Rizal Monument, stood tall as a symbol of Filipino bravery and sacrifice. At the top of the obelisk, three gold stars shimmer proudly—each representing Luzon, Visayas, and Mindanao—signifying national unity across the Philippine archipelago. This stunning shot of the Philippine flag glowing against the sun and dramatic clouds perfectly symbolizes the spirit of nationalism. It reflects the sacrifices made by heroes like Rizal and the continued pride Filipinos hold in their heritage.",
         },
         {
-          images: [day1Img3, day1Img4, day1Img012, day1Img013,day1Img014 ],
+          images: [day1Img3, day1Img4, day1Img012, day1Img013, day1Img014],
           sectionTitle: " Reducto de San Francisco Javier & Fort Santiago: Echoes of the Past Within Intramuros",
           sectionText:
             "Next, we made our way to the iconic Fort Santiago and the Reducto de San Francisco Javier. Set within the walled city of Intramuros, this fortress has stood since 1570 and holds deep historical significance as a defense stronghold during the Spanish colonial era. As we explored the cobblestone paths, aged stone walls, and arched gates, we felt transported to a different era—one where the echoes of history still linger in every corner. The Reducto de San Francisco Javier, a circular bastion near the entrance, once served as a final line of defense, its cannon slits and stone form speaking to centuries of strategic warfare. Meanwhile, the main gate of Fort Santiago, adorned with intricate Spanish carvings and the national coat of arms, stood both majestic and solemn. Walking through it felt like stepping into a chapter of history. Inside, we found preserved ruins, Rizal's prison cell, and tranquil gardens—a solemn space for reflection on the sacrifices made for our nation's freedom.",
@@ -215,7 +239,7 @@ function Home() {
           images: [day2Img3, day2Img4, day2Img16, day2Img17, day2Img18],
           sectionTitle: "Law Enforcement",
           sectionText:
-            " Lastly, the final company we visited at SBMA was the Law Enforcement Department. Lt. Derek was introduced to us and provided an overview of port law enforcement operations. From dispatch procedures to daily duties, he emphasized the importance of coordination, vigilance, and discipline in maintaining the security of Subic’s port. We also learned that there is no Philippine National Police (PNP) presence within the SBMA, and the area operates independently without any governors.",
+            " Lastly, the final company we visited at SBMA was the Law Enforcement Department. Lt. Derek was introduced to us and provided an overview of port law enforcement operations. From dispatch procedures to daily duties, he emphasized the importance of coordination, vigilance, and discipline in maintaining the security of Subic's port. We also learned that there is no Philippine National Police (PNP) presence within the SBMA, and the area operates independently without any governors.",
         },
         {
           images: [day2Img7, day2Img9, day2Img01, day2Img02, day2Img03],
@@ -246,7 +270,7 @@ function Home() {
             "Today's journey took us deeper into the roots of the nation as we toured the Quezon Memorial Circle, home to the Museo ni Manuel L. Quezon and a tranquil green space in the heart of Quezon City. It was a day of learning, reflection, and national pride. Inside the Museo ni Manuel L. Quezon, we explored key moments in the life of President Quezon—from his humble beginnings and early political career to his presidency during the Commonwealth period and leadership during the Japanese occupation. Though he passed away before witnessing Philippine independence, his contributions laid the foundation for a free nation. The Quezon Memorial Shrine now stands as both a national shrine and peaceful space for reflection. At its peak, three mourning angels—symbolizing Luzon, Visayas, and Mindanao—hold sampaguita wreaths in honor of Quezon's enduring legacy.",
         },
         {
-          images: [day3Img6, day3Img7,day3Img13,day3Img14,day3Img15],
+          images: [day3Img6, day3Img7, day3Img13, day3Img14, day3Img15],
           sectionTitle: "A Glimpse Into the Past: The Car Museum",
           sectionText:
             "Right within the Quezon Memorial Circle, we also visited the Car Museum, which displayed all fascinating collection of vintage vehicles—including cars used by former presidents and important figures in Philippine history. Each vehicle has its own story, reflecting the era and the leadership behind the wheel.",
@@ -266,7 +290,7 @@ function Home() {
           images: [day4Img3, day4Img7, day4Img8, day4Img9, day4Img10],
           sectionTitle: "Bangko Sentral ng Pilipinas (BSP): The Heart of Philippine Currency",
           sectionText:
-            "At the BSP facility, although we weren’t able to take actual photos, we witnessed how gold powder is transformed into solid gold bars—a rare behind-the-scenes look at the country's gold reserves. It was an incredible experience, almost like stepping into a high-security vault filled with both history and wealth. We also learned that the BSP isn’t just about printing money. It plays a role in processing land titles and even passports, as the paper used in these documents is similar to that used in currency—highlighting its crucial role in national documentation and economic stability. Perhaps the most fascinating part was observing how Philippine banknotes are printed. We saw the actual machines in action—from layout and printing to cutting and quality control—which gave us a deeper appreciation for the complexity and security measures behind every peso we use. Special thanks to Sir Cyrus for touring us around the BSP and sharing his knowledge with us. (Credits to Google for some of the photos of BSP.) ",
+            "At the BSP facility, although we weren't able to take actual photos, we witnessed how gold powder is transformed into solid gold bars—a rare behind-the-scenes look at the country's gold reserves. It was an incredible experience, almost like stepping into a high-security vault filled with both history and wealth. We also learned that the BSP isn't just about printing money. It plays a role in processing land titles and even passports, as the paper used in these documents is similar to that used in currency—highlighting its crucial role in national documentation and economic stability. Perhaps the most fascinating part was observing how Philippine banknotes are printed. We saw the actual machines in action—from layout and printing to cutting and quality control—which gave us a deeper appreciation for the complexity and security measures behind every peso we use. Special thanks to Sir Cyrus for touring us around the BSP and sharing his knowledge with us. (Credits to Google for some of the photos of BSP.) ",
         },
         {
           images: [day4Img1, day4Img2, day4Img4, day4Img5, day4Img6],
@@ -286,7 +310,18 @@ function Home() {
       image: coverImg5,
       dayImages: [
         {
-          images: [day5Img1, day5Img2, day5Img3, day5Img4, day5Img7, day5Img8, day5Img9, day5Img10, day5Img11, day5Img12],
+          images: [
+            day5Img1,
+            day5Img2,
+            day5Img3,
+            day5Img4,
+            day5Img7,
+            day5Img8,
+            day5Img9,
+            day5Img10,
+            day5Img11,
+            day5Img12,
+          ],
           sectionTitle: "LRT2 Up Close: A Journey Through Metro Manila's Transit System",
           sectionText:
             "Our morning began with a tour of LRT Line 2, guided by Sir Adrian, who introduced us to the workings of one of Metro Manila's three major rail systems—LRT Line 1, MRT Line 3, and LRT Line 2. We explored the behind-the-scenes operations of LRT2, including its train lift, overhead cranes, and the Light Maintenance System (LMS) used for technical upkeep. We also learned about the train's powerful air-conditioning units (20 horsepower each), and the MegaTrains themselves—manufactured by Hyundai in 2002—which can carry up to 1,628 passengers. Maintenance vehicles like the UROMAC truck from Spain, along with multipurpose transport units, help ensure the system runs smoothly. Fun fact: a single train tire weighs 308 kg, with the full set reaching up to 1,250 kg! The tour concluded with a scenic and comfortable ride from Santolan to Antipolo and back—bringing all the technical knowledge to life through real experience.",
@@ -303,12 +338,14 @@ function Home() {
       id: 6,
       title: "Day 6 - Start of Baguio Tour",
       date: "2025-04-12",
-      description: "A Saturday Escape to Baguio: Strawberry Farm, Bell Church, Philippine Military Academy, and  Mines View Park",
-      fullContent:"We left Quezon City around 1:00 AM and arrived in Baguio at approximately 5:00 AM, greeted by the crisp mountain air and the quiet beauty of a city just beginning to wake. Despite the early hour and the chilly atmosphere, our excitement kept us warm and energized as we embarked on our cold yet charming adventure.",
+      description:
+        "A Saturday Escape to Baguio: Strawberry Farm, Bell Church, Philippine Military Academy, and  Mines View Park",
+      fullContent:
+        "We left Quezon City around 1:00 AM and arrived in Baguio at approximately 5:00 AM, greeted by the crisp mountain air and the quiet beauty of a city just beginning to wake. Despite the early hour and the chilly atmosphere, our excitement kept us warm and energized as we embarked on our cold yet charming adventure.",
       image: coverImg6,
       dayImages: [
         {
-          images: [day6Img1, day6Img2, day6Img3, day6Img4,day6Img29],
+          images: [day6Img1, day6Img2, day6Img3, day6Img4, day6Img29],
           sectionTitle: "Strawberry Farm Sunrise",
           sectionText:
             "Our first stop: the famous Strawberry Farm in La Trinidad. The cool breeze and the scenic rows of plants stretching across the field made for the perfect start to our day. Although we didn't get to pick strawberries ourselves, we enjoyed roaming around the area, taking photos, and admiring the view. The place had a calm and refreshing atmosphere, with stalls nearby selling fresh strawberries, local jams, and handmade souvenirs. It was a simple yet memorable experience that gave us a taste of Baguio's charm and agricultural pride.",
@@ -358,7 +395,7 @@ function Home() {
           images: [day7Img1, day7Img2, day7Img3, day7Img4, day7Img5],
           sectionTitle: "Packing Memories, not just Souveniers: Wrapping up our Baguio Tour",
           sectionText:
-            "We started our Sunday with a warm and hearty breakfast, still enjoying the cool Baguio breeze. Afterward, we made our way to the Maharlika Shopping Center—one of Baguio’s classic go-to spots for pasalubong. The scent of fresh peanut brittle, ube and strawberry jam, woven crafts, and local trinkets filled the air as we browsed the stalls for last-minute gifts and souvenirs. We also took a leisurely stroll around Burnham Park. It was our final chance to bring a piece of Baguio home with us—and most of us didn’t leave empty-handed! After our shopping run, we returned to the hotel for one last meal together: lunch filled with laughter and stories from the past few days. We packed our bags, double-checked our souvenirs—especially the strawberries, hoping they would survive the long journey—and took a few more photos before checking out. By early afternoon, we boarded our ride back to Quezon City, tired but fulfilled. It was more than just a trip—it was an experience filled with learning, friendship, discovery, and lasting memories. From city tours to strawberry farms, train systems to night markets, every day offered something meaningful to remember.",
+            "We started our Sunday with a warm and hearty breakfast, still enjoying the cool Baguio breeze. Afterward, we made our way to the Maharlika Shopping Center—one of Baguio's classic go-to spots for pasalubong. The scent of fresh peanut brittle, ube and strawberry jam, woven crafts, and local trinkets filled the air as we browsed the stalls for last-minute gifts and souvenirs. We also took a leisurely stroll around Burnham Park. It was our final chance to bring a piece of Baguio home with us—and most of us didn't leave empty-handed! After our shopping run, we returned to the hotel for one last meal together: lunch filled with laughter and stories from the past few days. We packed our bags, double-checked our souvenirs—especially the strawberries, hoping they would survive the long journey—and took a few more photos before checking out. By early afternoon, we boarded our ride back to Quezon City, tired but fulfilled. It was more than just a trip—it was an experience filled with learning, friendship, discovery, and lasting memories. From city tours to strawberry farms, train systems to night markets, every day offered something meaningful to remember.",
         },
       ],
     },
@@ -398,20 +435,31 @@ function Home() {
         </div>
       ) : (
         <>
-          <section className="home-hero">
+          <section
+            className="home-hero"
+            style={{
+              backgroundImage: `url(${slideshowImages[currentSlideIndex]})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              width: "100%",
+              transition: "background-image 1s ease-in-out",
+            }}
+          >
             <h1>Educational Tour Blog</h1>
             <p>
-            A glimpse into our 8-day educational tour—city explorations, company visits, 
-            and a memorable Baguio escape. Real-world learning beyond the classroom.
+              A glimpse into our 8-day educational tour—city explorations, company visits, and a memorable Baguio
+              escape. Real-world learning beyond the classroom.
             </p>
-          </section>
-
-          <div className="button-container">
+            <div className="button-container">
             <button onClick={scrollToPosts} className="primary-button">
               <ChevronDown className="w-6 h-6" />
               <span className="sr-only">Explore My Blog</span>
             </button>
           </div>
+          </section>
+
+        
 
           <section ref={postsRef} className="posts-section">
             <div className="posts-grid">
