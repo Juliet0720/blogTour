@@ -4,6 +4,7 @@ function PostDetail({ post, onBack }) {
   return (
     <article className="post-detail">
       <div className="post-detail-header">
+        
         <button onClick={onBack} className="back-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -14,9 +15,8 @@ function PostDetail({ post, onBack }) {
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
-          <span>Back to posts</span>
+         
         </button>
-
         <div className="post-meta">
           <div className="post-date">
             <svg
