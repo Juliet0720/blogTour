@@ -8,10 +8,13 @@
 ::-webkit-scrollbar {
   display: none;
 }
-
+h2{
+  font-family: 'Goldman';
+}
 
 p{
   font-family: 'Lora';
+  color:#171b1f;
 }
 /* Main Container Styles */
 .container {
@@ -197,7 +200,7 @@ p{
   display: flex;
   align-items: center;
   font-size: 0.85rem;
-  color: #4a4646;
+  color: #000000;
 }
 
 .calendar-icon {
@@ -210,7 +213,7 @@ p{
 .post-detail {
   background-color: #FAF6E9;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.571);
   
 }
 
@@ -228,7 +231,7 @@ p{
   align-items: center;
   background: none;
   border: none;
-  color: #3C91E6;
+  color: #FAF6E9;
   font-weight: 600;
   cursor: pointer;
   padding: 8px 0;
@@ -272,13 +275,13 @@ p{
 .post-body {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #444;
+  color: #171515;
 }
 
 .post-intro {
   font-size: 1.2rem;
-  font-weight: 500;
-  color: #312e2e;
+  font-weight: bold;
+  color: #586d81;
   margin-bottom: 20px;
   line-height: 1.6;
 }

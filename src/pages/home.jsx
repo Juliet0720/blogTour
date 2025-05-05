@@ -303,7 +303,7 @@ function Home() {
       id: 6,
       title: "Day 6 - Start of Baguio Tour",
       date: "2025-04-12",
-      description: "A Saturday Escape to Baguio",
+      description: "A Saturday Escape to Baguio: Strawberry Farm, Bell Church, Philippine Military Academy, and  Mines View Park",
       fullContent:
         "We arrived in Baguio at around 5:00 AM, greeted by the crisp mountain air and the quiet beauty of the city just starting to wake. Despite the early hour, the excitement kept us warm and energized as we began our chilly yet charming adventure.",
       image: coverImg6,
