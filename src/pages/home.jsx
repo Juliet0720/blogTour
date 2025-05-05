@@ -356,7 +356,7 @@ function Home() {
       dayImages: [
         {
           images: [day7Img1, day7Img2, day7Img3, day7Img4, day7Img5],
-          sectionTitle: "Packing Mtories, not just Souveniers: Wrapping up our Baguio Tour",
+          sectionTitle: "Packing Memories, not just Souveniers: Wrapping up our Baguio Tour",
           sectionText:
             "We started our Sunday with a warm and hearty breakfast, still enjoying the cool Baguio breeze. Afterward, we made our way to the Maharlika Shopping Center—one of Baguio’s classic go-to spots for pasalubong. The scent of fresh peanut brittle, ube and strawberry jam, woven crafts, and local trinkets filled the air as we browsed the stalls for last-minute gifts and souvenirs. We also took a leisurely stroll around Burnham Park. It was our final chance to bring a piece of Baguio home with us—and most of us didn’t leave empty-handed! After our shopping run, we returned to the hotel for one last meal together: lunch filled with laughter and stories from the past few days. We packed our bags, double-checked our souvenirs—especially the strawberries, hoping they would survive the long journey—and took a few more photos before checking out. By early afternoon, we boarded our ride back to Quezon City, tired but fulfilled. It was more than just a trip—it was an experience filled with learning, friendship, discovery, and lasting memories. From city tours to strawberry farms, train systems to night markets, every day offered something meaningful to remember.",
         },
@@ -368,7 +368,7 @@ function Home() {
       date: "2025-04-14",
       description: "Until Next Time, Manila: Our Flight Back to Zamboanga",
       fullContent:
-        "All great adventures must come to an end—and today, our journey did just that. There was a different kind of silence in the air as we packed our bags, folded our last souvenirs, and stepped out of the DJM Dormitory for the final time.",
+        "All great adventures must come to an end—and today, our journey did just that. There was a different kind of silence in the air as we packed our bags, folded our last souvenirs, and stepped out of the DJM Dormitory for the final time. :)",
       image: coverImg8,
       dayImages: [
         {
